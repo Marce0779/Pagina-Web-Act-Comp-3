@@ -1,0 +1,22 @@
+<svg xmlns="http://w3.org" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Sombra -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Fondo circular del logo -->
+  <circle cx="100" cy="100" r="90" fill="#E6EEF8" />
+
+  <!-- Grupo principal de la huella -->
+  <g fill="#4A7BB0" filter="url(#shadow)">
+    <!-- Almohadilla principal-->
+    <path d="M 60,145 C 60,115 140,115 140,145 C 140,165 60,165 60,145 Z" />
+
+    <!-- Dedos de la huella-->
+    <circle cx="70" cy="90" r="16" />
+    <circle cx="100" cy="68" r="19" />
+    <circle cx="130" cy="90" r="16" />
+  </g>
+</svg>

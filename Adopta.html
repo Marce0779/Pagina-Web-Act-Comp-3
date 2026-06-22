@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet"
+        href="Assets/Fuentes/Bitcount_Grid_Double,Chelsea_Market/Chelsea_Market/ChelseaMarket-Regular.ttf">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
+                <li><a href="Adopta.html" target="_blank">Adopta</a></li>
+                <li><a href="Formulario.html" target="_blank">Formulario</a></li>
+            </ul>
+        </nav>
+        <svg xmlns="http://w3.org" viewBox="0 0 200 200" width="100%" height="100%">
+            <defs>
+                <!-- Sombra -->
+                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.15" />
+                </filter>
+            </defs>
+
+            <!-- Fondo circular del logo -->
+            <circle cx="100" cy="100" r="90" fill="#E6EEF8" />
+
+            <!-- Grupo principal de la huella -->
+            <g fill="#4A7BB0" filter="url(#shadow)">
+                <!-- Almohadilla principal-->
+                <path d="M 60,145 C 60,115 140,115 140,145 C 140,165 60,165 60,145 Z" />
+
+                <!-- Dedos de la huella-->
+                <circle cx="70" cy="90" r="16" />
+                <circle cx="100" cy="68" r="19" />
+                <circle cx="130" cy="90" r="16" />
+            </g>
+        </svg>
+        <h1> Fundación Huellitas Seguras</h1>
+        <p>Rescatando y protegiendo a nuestros amigos de cuatro patas.</p>
+    </header>
+
+    <main>
+
+        <div class="heroes">
+            <h1>Dales una segunda oportunidad</h1>
+            <p>Adoptar es un acto de amor que salva vidas.</p>
+
+        </div>
+
+        <div class="contenedor">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Ellos buscan un hogar</h2>
+            <div class="red">
+                <div id="carnet">
+                    <img src="Assets/Imagenes/max.jfif" alt="Cachorro en adopción">
+                    <h3>Max</h3>
+                    <p>Juguetón, cariñoso y tamaño mediano.</p>
+                    <a href="Formulario.html" class="btn" target="_blank">Adoptar a Max</a>
+                </div>
+                <div id="carnet">
+                    <img src="Assets/Imagenes/luna.jfif" alt="Perrita en adopción" height="50px">
+                    <h3>Luna</h3>
+                    <p>Tranquila, hogareña y muy mimada.</p>
+                    <a href="Formulario.html" class="btn" target="_blank">Adoptar a Luna</a>
+                </div>
+            </div>
+        </div>
+
+        
+    <section align="center">
+      <h3> Video muestra la importancia de adoptar</h3>
+      <video controls muted autoplay loop>
+        <source src="Assets/Videos/videoplayback.mp4" type="Video/mp4">
+        <source src="Assets/Videos/videoplayback.mp4" type="Video/mp4">
+      </video>  
+    </section>
+
+    </main>
+
+     <footer>
+        <p>&copy; 2026 Fundación Huellitas Seguras. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet"
+        href="Assets/Fuentes/Bitcount_Grid_Double,Chelsea_Market/Chelsea_Market/ChelseaMarket-Regular.ttf">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Inicio</a></li>
+                <li><a href="Adopta.html" target="_blank">Adopta</a></li>
+                <li><a href="Formulario.html" target="_blank">Formulario</a></li>
+            </ul>
+        </nav>
+
+        <svg xmlns="http://w3.org" viewBox="0 0 200 200" width="100%" height="100%">
+            <defs>
+                <!-- Sombra -->
+                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.15" />
+                </filter>
+            </defs>
+
+            <!-- Fondo circular del logo -->
+            <circle cx="100" cy="100" r="90" fill="#E6EEF8" />
+
+            <!-- Grupo principal de la huella -->
+            <g fill="#4A7BB0" filter="url(#shadow)">
+                <!-- Almohadilla principal-->
+                <path d="M 60,145 C 60,115 140,115 140,145 C 140,165 60,165 60,145 Z" />
+
+                <!-- Dedos de la huella-->
+                <circle cx="70" cy="90" r="16" />
+                <circle cx="100" cy="68" r="19" />
+                <circle cx="130" cy="90" r="16" />
+            </g>
+        </svg>
+        <h1> Fundación Huellitas Seguras</h1>
+        <p>Rescatando y protegiendo a nuestros amigos de cuatro patas.</p>
+    </header>
+
+    <main>
+
+        <!-- Formulario -->
+        <section>
+            <h2>¡Quiero ser Voluntario / Adoptar!</h2>
+            <p>Llena este formulario y nos pondremos en contacto contigo.</p>
+            <form action="#" method="POST">
+                <label for="nombre">Tu Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="interes">¿En qué te gustaría ayudar?</label>
+                <input type="text" id="interes" name="interes" placeholder="Ej. Adopción, Voluntariado, Donaciones"
+                    required>
+
+                <label for="mensaje">Cuéntanos un poco sobre ti:</label>
+                <textarea id="mensaje" name="mensaje" rows="4"
+                    placeholder="¿Tienes experiencia previa con perros? ¿Por qué quieres adoptar/ayudar?"
+                    required></textarea>
+
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fundación Huellitas Seguras. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
