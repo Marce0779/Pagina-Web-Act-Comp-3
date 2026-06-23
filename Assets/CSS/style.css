@@ -111,18 +111,9 @@
           @media (min-width: 1200px) {
               h2 {
                   color: #ff6b6b;
-                  ;
                   border-bottom: 2px solid #ff9a9e;
               }
           }
-
-          @media(max-width: 600px){
-            p{
-                display: none;
-            }
-          }
-
-
 
           /* Tabla */
           table {
@@ -187,8 +178,6 @@
           @media (min-width: 1200px) {
               th {
                   background-color: #ff9a9e;
-                  ;
-
               }
           }
 
@@ -199,7 +188,7 @@
 
           /* Lista Glosario */
           .Glosario {
-              column-count: 3;
+              max-width: 1200px;
           }
 
           dl {
@@ -232,7 +221,6 @@
           @media (min-width: 1200px) {
               dt {
                   color: #ff6b6b;
-                  ;
                   border-bottom: 2px solid #ff9a9e;
               }
           }
@@ -254,7 +242,7 @@
               text-shadow: 2px 2px 4px #ff6b6b;
           }
 
-           @media (max-width: 600px) {
+          @media (max-width: 600px) {
               .heroes {
                   text-shadow: 2px 2px 4px #4efafa;
               }
@@ -268,19 +256,20 @@
 
           @media (min-width: 1200px) {
               .heroes {
-                 text-shadow: 2px 2px 4px #ff6b6b;
+                  text-shadow: 2px 2px 4px #ff6b6b;
               }
           }
 
           .heroes h1 {
               font-size: 72px;
               margin-bottom: 0.5rem;
+              font-family: ChelseaMarket-Regular, serif;
           }
 
-          @media (max-width: 600px){
-            .heroes h1{
-                font-size: 24px;
-            }
+          @media (max-width: 600px) {
+              .heroes h1 {
+                  font-size: 24px;
+              }
           }
 
           .contenedor {
@@ -382,7 +371,12 @@
               background-color: #ff4757;
           }
 
+          @media (max-width: 900px) {
+              video {
+                  max-width: 100%;
+              }
 
+          }
 
           footer {
               text-align: center;
@@ -392,7 +386,7 @@
               margin-top: 2rem;
           }
 
-           @media (max-width: 600px) {
+          @media (max-width: 600px) {
               footer {
                   background: #9af5f5;
               }
@@ -409,5 +403,3 @@
                   background: #ff9a9e;
               }
           }
-
-          
